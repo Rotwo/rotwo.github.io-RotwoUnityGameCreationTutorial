@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link rel="stylesheet" href="./style.css">
+
+        
+    </head>
+
+    <header>
+        <h1>Welcome to Unity Basics</h1>
+
+        <a href="#Examples" class="Links" style="color: rgb(194, 194, 194);">Examples</a>
+
+<div>&nbsp;</div>
+
+        <div>&nbsp;</div>
+
+        <h1 class="Txt">
+            Here you are going to learn how to use Unity and create some basic stuff
+            You are going to learn how to declare gameObjects, floats and More!
+        </h1>
+
+        <div class="divisor50">&nbsp;</div>
+
+
+        <div class="Title">Examples</div>
+
+        <video src="./ImportantBanner.mp4" autoplay muted class="ImportantBanner"></video>
+
+        <h1>The scripts need to be applied to the object</h1>
+        <h1>To create a script right click on the file inspector and click on "Create new C# Script"</h1>
+        
+        <h1>All our variables need to be on under "CODE"</h1>
+
+        <h2 class="Code">
+<div class="YellowC">using UnityEngine;</div> 
+<div class="YellowC">System.Collections;</div> 
+<div>&nbsp;</div>
+<div>
+    public class <Color class="CyanC">PlayerController</Color> : MonoBehaviour </div>
+</div>
+<div>
+    {
+</div>
+    
+<div>&nbsp;</div>
+
+    <div class="GreenC">// CODE</div>
+         
+    <div>&nbsp;</div>
+
+    <div>
+        void <Color class="CyanC">Start</Color>() <Color class="GreenC">// Runs at the start of the game</Color>
+        <div>
+        {
+        </div>
+        <div>&nbsp;</div>
+<div>
+}
+</div>
+
+    </div>
+
+    <div>&nbsp;</div>
+    
+        void <Color class="CyanC">Update</Color> ()  <Color class="GreenC">// Each frame is executed</Color>
+        <div>
+            {
+        </div> 
+        <div>&nbsp;</div>
+    <div>
+    }
+    </div>
+      <div>&nbsp;</div>  
+      <div>&nbsp;</div>  
+      <div>
+    }
+      </div>      
+    
+      
+
+        </h2>
+
+        <h1 id="Examples">Declare a gameObject</h1>
+
+        <h2 class="code">
+            <Color class="CyanC">public</Color> GameObject NameOfYourObject;
+
+            <div>&nbsp;</div>
+
+            <div class="GreenC">
+                // Public can be access by all the scripts and the Unity Editor
+            </div>
+            
+            <div>&nbsp;</div>
+
+            <div>
+                <Color class="CyanC">private</Color> GameObject NameOfYourObject;
+            </div>
+
+            <div>&nbsp;</div>
+            
+            <div class="GreenC">
+                // Private can be access only by the script
+            </div>
+
+            <div>&nbsp;</div>
+            
+            <div><Color class="YellowC">[SerializedField]</Color> <Color class="CyanC">private</Color> GameObject NameOfYourObject;</div>
+            
+            <div>&nbsp;</div>
+
+            <div class="GreenC">
+                // Private with SerializedField at the start can be access only by the script and the Unity Editor
+            </div>
+        </h2>
+
+        <div>&nbsp;</div>
+
+        <h1>
+            Asing the object in the Inspector
+        </h1>
+
+        <img src="./UnityBasics/Inspector.png" alt="" class="InspectorImg">
+
+        <h1 id="Examples">Declare a float</h1>
+
+        <div></div>
+
+        <h2 class="code">
+            <Color class="CyanC">public</Color> float NameOfYourFloat;
+
+            <div>&nbsp;</div>
+
+            <div class="GreenC">
+                // Public can be access by all the scripts and the Unity Editor
+            </div>
+            
+            <div>&nbsp;</div>
+
+            <div>
+                <Color class="CyanC">private</Color> float NameOfYourFloat;
+            </div>
+
+            <div>&nbsp;</div>
+            
+            <div class="GreenC">
+                // Private can be access only by the script
+            </div>
+
+            <div>&nbsp;</div>
+            
+            <div><Color class="YellowC">[SerializedField]</Color> <Color class="CyanC">private</Color> float NameOfYourFloat;</div>
+            
+            <div>&nbsp;</div>
+
+            <div class="GreenC">
+                // Private with SerializedField at the start can be access only by the script and the Unity Editor
+            </div>
+        </h2>
+    </header>
+</html>
